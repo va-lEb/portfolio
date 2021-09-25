@@ -1,0 +1,104 @@
+@media only screen and (max-width: 845px) {
+  #menu p {
+    display: block;
+  }
+  #menu li {
+    display: block;
+    padding: 0;
+  }
+
+  #menu {
+    position: relative;
+  }
+  .sousMenu {
+    width: 18rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding: 2.5rem 3rem;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    display: none;
+  }
+  .sousMenu a {
+    color: var(--gray);
+    line-height: 4rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    transition: all 0.5s ease-in-out;
+  }
+  #menu:hover .sousMenu {
+    display: block;
+  }
+  .sousMenu a:hover {
+    color: var(--graylight);
+    padding-left: 0.9rem;
+  }
+  #menu i {
+    padding-right: 0.5rem;
+  }
+  #menu:hover .fas {
+    transform: rotate(-90deg);
+    padding-right: 0;
+    padding-bottom: 0.3rem;
+    padding-left: 0.3rem;
+  }
+  #a_propos {
+    padding: 2rem;
+  }
+  #a_propos article {
+    margin: 1.5rem;
+  }
+  .contentOne {
+    padding: 3rem;
+  }
+  
+}
+
+@media only screen and (max-width: 480px) {
+  #banner p {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 9rem;
+    margin-top: 5rem;
+  }
+  #logo {
+    width: 50%;
+  }
+  header,
+  #banner {
+    padding: 2rem;
+  }
+  .sousMenu {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  #a_propos {
+    padding: 0;
+  }
+  .contentOne {
+    padding: 2rem;
+  }
+  #portfolio {
+    padding: 4rem 1rem;
+  }
+  .galleryThree {
+    margin-bottom: 3rem;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
